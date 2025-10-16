@@ -15,6 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
 
+# Google Analytics
+google_analytics: G-YMX75B4HZ9
+
 # Build settings
 markdown: kramdown
 plugins:
