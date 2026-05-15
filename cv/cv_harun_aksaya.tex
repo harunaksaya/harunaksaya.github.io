@@ -1,0 +1,246 @@
+%!TEX program = xelatex
+\documentclass[11pt, a4paper]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{parskip}
+\usepackage{microtype}
+
+% Page geometry
+\geometry{
+  top=2cm, bottom=2cm,
+  left=2.5cm, right=2.5cm
+}
+
+% Colors
+\definecolor{accentblue}{RGB}{0, 79, 144}
+\definecolor{lightgray}{RGB}{120, 120, 120}
+\definecolor{sectiongray}{RGB}{240, 240, 240}
+
+% Fonts
+\setmainfont{Georgia}
+\setsansfont{Arial}
+
+% Hyperlinks
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accentblue,
+  linkcolor=accentblue
+}
+
+% Section formatting
+\titleformat{\section}
+  {\large\sffamily\bfseries\color{accentblue}}
+  {}{0em}
+  {}
+  [\vspace{-4pt}\textcolor{accentblue}{\hrule height 0.8pt}\vspace{4pt}]
+
+\titlespacing{\section}{0pt}{14pt}{6pt}
+
+% No paragraph indent
+\setlength{\parindent}{0pt}
+
+% List settings
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, topsep=2pt}
+
+% Custom commands
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.13\textwidth}X@{}}
+    \textcolor{lightgray}{\small #1} & \textbf{#2} \\
+    & \textit{\small #3} \\
+    \ifx&#4&\else & \small #4 \\ \fi
+  \end{tabularx}
+  \vspace{3pt}
+}
+
+\newcommand{\pubentry}[3]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.07\textwidth}X@{}}
+    \textcolor{lightgray}{\small #1} & #2 \\
+    & \textcolor{lightgray}{\small\itshape #3} \\
+  \end{tabularx}
+  \vspace{4pt}
+}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% --- HEADER ---
+\begin{center}
+  {\Huge\sffamily\bfseries\color{accentblue} Dr.\ Harun AKSAYA}\\[6pt]
+  {\large\sffamily Researcher \textperiodcentered\ Software Developer \textperiodcentered\ AI \& NLP}\\[8pt]
+  {\small
+    \textcolor{lightgray}{
+      \href{mailto:harunaksaya@marmara.edu.tr}{harunaksaya@marmara.edu.tr}
+      \quad\textbullet\quad
+      \href{https://orcid.org/0000-0002-9115-3154}{ORCID: 0000-0002-9115-3154}
+      \quad\textbullet\quad
+      \href{https://linkedin.com/in/harunaksaya}{linkedin.com/in/harunaksaya}
+    }\\[2pt]
+    \textcolor{lightgray}{
+      \href{https://scholar.google.com/citations?user=VWJfY6kAAAAJ}{Google Scholar}
+      \quad\textbullet\quad
+      \href{https://github.com/haksaya}{github.com/haksaya}
+      \quad\textbullet\quad
+      \href{https://twitter.com/harunaksaya}{@harunaksaya}
+    }
+  }
+\end{center}
+
+\vspace{6pt}
+
+% --- RESEARCH INTERESTS ---
+\section{Research Interests}
+
+Artificial Intelligence \textperiodcentered\
+Natural Language Processing \textperiodcentered\
+Sentiment Analysis \textperiodcentered\
+Text Mining \textperiodcentered\
+Semantic Networks \textperiodcentered\
+Turkish Language Processing \textperiodcentered\
+Machine Learning \textperiodcentered\
+Educational Technology
+
+% --- EDUCATION ---
+\section{Education}
+
+\cventry{2016 -- 2021}{Ph.D. in Informatics}{İstanbul University, Department of Informatics}{GPA: 3.93/4.00 — High Honors}
+
+\cventry{2013 -- 2015}{M.Sc. in Computer Science}{Marmara University}{GPA: 90.5/100 — High Honors}
+
+\cventry{2011 -- 2013}{Language School}{Middle East Technical University (METU)}{High Honors}
+
+\cventry{2006 -- 2010}{B.Sc. in Computer Education and Instructional Technologies}{Marmara University}{GPA: 85.93/100 — Graduated Top of the Department with Honors}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Professional Experience}
+
+\cventry{2012 -- Present}{Software Development Specialist}{Marmara University, İstanbul}{}
+
+\cventry{2010 -- 2012}{Software Development Specialist}{Middle East Technical University, Ankara}{}
+
+% --- TEACHING ---
+\section{Teaching}
+
+\cventry{2026 Spring}{Lecturer — Text Mining}{İstanbul University, Department of Computer Science}{Topics: text preprocessing, feature extraction, classification, clustering, sentiment analysis, NLP applications}
+
+% --- PUBLICATIONS ---
+\section{Publications}
+
+\subsection*{\normalsize\sffamily\color{accentblue} Journal Articles}
+\vspace{4pt}
+
+\pubentry{2015}{%
+  Aksaya, H., Arşık, A., Elibol, M., Erdoğan, A., Burak, K., Olgun, M.Ö., \& Reis, Z.A.
+  \textbf{I Learn For My Hobby: How Much Are Aquarists Satisfied?}}{%
+  \textit{Turkish Online Journal of Educational Technology}, Vol.\ 2015.}
+
+\pubentry{2013}{%
+  Aslan, A. \& Aksaya, H.
+  \textbf{A Scale Development Study for Evaluating Open Course Ware Platforms}}{%
+  \textit{Academic Journal}.}
+
+\pubentry{2011}{%
+  Aksaya, H., Kırçalı, O., Direk, A., \& Kılıç, M.
+  \textbf{Determining the Factors of Interest to Digital Games and Comparing Them with Properties of Educational Games}}{%
+  \textit{Gaziantep University Journal of Social Sciences}, Vol.\ 10, No.\ 4, pp.\ 1291--1310. \quad\textcolor{lightgray}{[2 Citations]}}
+
+\vspace{6pt}
+\subsection*{\normalsize\sffamily\color{accentblue} Thesis}
+\vspace{4pt}
+
+\pubentry{2014}{%
+  Aksaya, H.
+  \textbf{An Investigation of Open Courseware Platforms from a Lifelong Learning Perspective}}{%
+  M.Sc.\ Thesis, Atatürk Faculty of Education.}
+
+\vspace{6pt}
+\subsection*{\normalsize\sffamily\color{accentblue} Book Chapters}
+\vspace{4pt}
+
+\pubentry{2021}{%
+  Bozbuğa, N., Gülseçen, S., Ak, M., \& Aksaya, H.
+  \textbf{Medical Informatics}}{%
+  Book Chapter — \textit{Computer Science, Interdisciplinary Applications}. \href{https://doi.org/10.26650/B/ET07.2021.003}{DOI: 10.26650/B/ET07.2021.003}}
+
+\pubentry{2021}{%
+  Gülseçen, S. \& Aksaya, H.
+  \textbf{Clinical Decision Support Systems}}{%
+  Book Chapter. \href{https://doi.org/10.26650/B/ET07.2021.003.15}{DOI: 10.26650/B/ET07.2021.003.15}}
+
+\pubentry{2020}{%
+  Aksaya, H. \& Gülseçen, S.
+  \textbf{Developing a Text Mining Based System for Educational Institutions: Implementation of Machine Learning Techniques in Aspect-Based Sentiment Analysis Studies}}{%
+  \textit{Book of Abstracts}, p.\ 18.}
+
+\vspace{6pt}
+\subsection*{\normalsize\sffamily\color{accentblue} Conference Papers}
+\vspace{4pt}
+
+\pubentry{2025}{%
+  Aksaya, H., Gülseçen, S., \& Lepkova, N.
+  \textbf{Comparison of Artificial Neural Networks with Dictionary-Based Approach in Aspect-Based Sentiment Analysis}}{%
+  \textit{International Conference on Automatics and Informatics (ICAI'25)}, Varna, Bulgaria. IEEE Xplore / SCOPUS.}
+
+% --- INVITED TALKS ---
+\section{Invited Talks \& Presentations}
+
+\pubentry{2025}{%
+  Aksaya, H.
+  \textbf{From Data to Value | Artificial Intelligence as a Lever in Financial Systems}}{%
+  XIII.\ Turkish Accounting Expertise Congress, Gaziantep, Turkey (December 5--7, 2025).}
+
+\pubentry{2025}{%
+  Aksaya, H.
+  \textbf{Artificial Intelligence as a Lever in Vocational Education and Industry}}{%
+  XIII.\ International Vocational Schools Symposium (UMYOS 2025), Bursa Uludağ University, Turkey.}
+
+\pubentry{2020}{%
+  Aksaya, H.
+  \textbf{New Approaches in Natural Language Processing Studies}}{%
+  \textit{Artificial Intelligence Summer School 2020}, Sakarya University, Turkey.}
+
+% --- ACADEMIC SERVICE ---
+\section{Academic Service}
+
+\subsection*{\normalsize\sffamily\color{accentblue} Peer Reviewer — Journals}
+\vspace{4pt}
+
+\cventry{2026}{Reviewer}{Acta INFOLOGICA (ACIN)}{Istanbul University, Department of Informatics. Peer-reviewed scientific journal (bilingual until March 2022; English only from March 2022). Published biannually.}
+
+\cventry{2026}{Reviewer}{Beykent University Journal of Science and Engineering (BUJSE)}{Istanbul Beykent University. International peer-reviewed journal in natural sciences, engineering, and architecture. Published biannually.}
+
+\vspace{2pt}
+\subsection*{\normalsize\sffamily\color{accentblue} Peer Reviewer — Conferences}
+\vspace{4pt}
+
+\cventry{2026}{Reviewer}{24th Akademik Bilişim Conference (AB 2026)}{İstanbul Beykent University, Turkey (February 3--5, 2026).}
+
+\vspace{2pt}
+\subsection*{\normalsize\sffamily\color{accentblue} Jury \& Committee}
+\vspace{4pt}
+
+\cventry{2025}{Jury Member}{Bilişim Yıldızları 2025 — National and Original Project Competition}{Turkey Information Technology Association (TBD), Istanbul Branch.}
+
+% --- AWARDS ---
+\section{Awards \& Honors}
+
+\cventry{2021}{High Honors — Ph.D.}{İstanbul University}{GPA: 3.93 / 4.00}
+\cventry{2015}{High Honors — M.Sc.}{Marmara University}{Grade: 90.5 / 100}
+\cventry{2013}{High Honors — Language School}{METU}{}
+\cventry{2010}{Graduated Top of the Department with Honors — B.Sc.}{Marmara University}{Grade: 85.93 / 100}
+
+\vspace{12pt}
+\begin{center}
+  \textcolor{lightgray}{\small Last updated: May 2026}
+\end{center}
+
+\end{document}

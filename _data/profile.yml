@@ -55,6 +55,11 @@ education:
   date: 2006 - 2010
 
 experience:
+- name: İstanbul University
+  logo: /assets/images/badges/istanbul_uni_logo.png
+  position: Lecturer | Text Mining (Department of Computer Science)
+  date: 2026 Spring
+
 - name: Marmara University
   logo: /assets/images/badges/marmara_logo.png
   position: Software Development Specialist
