@@ -9,7 +9,7 @@ pub_date:       "2026"
 semantic_scholar_id:
 abstract: >-
   Teaching the Text Mining course at the Department of Computer Science, İstanbul University, during the 2026 Spring semester. The course covers fundamental and advanced topics in text mining including text preprocessing, feature extraction, classification, clustering, sentiment analysis, and applications of natural language processing techniques to real-world datasets.
-cover:          /assets/images/covers/lecture.jpg
+cover:          /assets/images/covers/pubs/teaching.svg
 authors:
   - Harun Aksaya
 links:

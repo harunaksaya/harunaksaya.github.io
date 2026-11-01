@@ -8,7 +8,7 @@ pub_date:       "2025"
 semantic_scholar_id:
 abstract: >-
   Invited keynote presentation at the XIII. International Vocational Schools Symposium (UMYOS 2025), hosted by Bursa Uludağ University on October 13-17, 2025, held at Mete Cengiz Cultural Center. The symposium's main theme was "Future Professions, Green Collar Professions" with subtopics covering Technical Sciences, Natural Sciences, Fine Arts, Health Sciences and Social Sciences. This interdisciplinary symposium featured presentations in Turkish and/or English. The talk addressed the transformative role of artificial intelligence as a leverage point in both vocational education and industrial applications, exploring how AI technologies are reshaping professional training and industry practices for future professions.
-cover:          /assets/images/covers/conferance presentation.jpg
+cover:          /assets/images/covers/pubs/talk.svg
 authors:
   - Harun Aksaya
 links:

@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-warning"
 pub_date:       "2025"
 abstract: >-
   Served as a jury member for the Bilişim Yıldızları 2025 "National and Original Project Competition" organized by the Turkey Information Technology Association (TBD) Istanbul Branch. This annual competition is designed to showcase talented young professionals and experts in software and information technology sectors across the country.
-cover:          /assets/images/covers/conferance.jpg
+cover:          /assets/images/covers/pubs/service.svg
 authors:
   - Harun Aksaya
 links:

@@ -10,7 +10,7 @@ positions:
 
 email: "harunaksaya@marmara.edu.tr"
 # cv_link: link-to-your-cv-file
-gscholar: WJfY6kAAAAJ&gmla=AH8HC4wk03uOBXZ3umIU6iIux65vceZOPHDEZP8BXwbCUhqOgHX-QVUnPVagyVH8ipRvLORGwhtt8JXHwxTNd-Jt0zjwWXs_zQ5KmS5X3RuXntbuPbA09u7W  # This is an example, replace it with your own Google Scholar ID
+gscholar: VWJfY6kAAAAJ
 github: haksaya
 twitter: harunaksaya  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -29,8 +29,6 @@ short_bio: >-
   </p>
 
 portrait_url: /assets/images/photos/haksaya.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: İstanbul University
@@ -55,6 +53,10 @@ education:
   date: 2006 - 2010
 
 experience:
+- name: Arı Bilgi Eğitim Kurumları
+  position: Instructor | Software and Artificial Intelligence Specialization Certificate Programs
+  date: Various terms
+
 - name: İstanbul University
   logo: /assets/images/badges/istanbul_uni_logo.png
   position: Lecturer | Text Mining (Department of Computer Science)

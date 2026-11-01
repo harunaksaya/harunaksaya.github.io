@@ -8,7 +8,7 @@ pub_date:       "2020"
 semantic_scholar_id:
 abstract: >-
   Invited lecture delivered at the Artificial Intelligence Summer School 2020, organized by Sakarya University. The lecture, titled "New Approaches in Natural Language Processing Studies," covered recent trends and innovative methods in NLP. The event brought together researchers, students, and professionals to discuss advancements in artificial intelligence and its applications.
-cover:          /assets/images/covers/lecture.jpg
+cover:          /assets/images/covers/pubs/talk.svg
 authors:
   - Harun Aksaya
 links:
