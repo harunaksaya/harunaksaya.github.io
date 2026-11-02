@@ -53,10 +53,6 @@ education:
   date: 2006 - 2010
 
 experience:
-- name: Arı Bilgi Eğitim Kurumları
-  position: Instructor | Software and Artificial Intelligence Specialization Certificate Programs
-  date: Various terms
-
 - name: İstanbul University
   logo: /assets/images/badges/istanbul_uni_logo.png
   position: Lecturer | Text Mining (Department of Computer Science)
